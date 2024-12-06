@@ -10,8 +10,7 @@ rm(list = ls())
 renv::restore()
 
 # call packages
-list.packages <- c("mgcv", "refund" ,"sf", "tidyverse", "terra", "ggplot2",
-                   "sperrorest", "ggtext", "mgcViz", "forcats")
+list.packages <- c("mgcv", "refund" ,"sf", "tidyverse", "mgcViz", "forcats")
 vapply(list.packages, library, logical(1), character.only = TRUE, logical.return = TRUE, quietly = TRUE)
 remove(list.packages)
 
@@ -36,21 +35,8 @@ d <- readRDS("./DATA/d_5_0cumforward_5day_t0123.Rds") |>
   tidyr::drop_na(day1.00:day5.23)
 table(d$bin)
 
-# load raw precipitation
-d.raw <- readRDS("./DATA/d_5_0day_t0123.Rds") |> 
-  tidyr::drop_na(day1.00:day5.23)
-table(d.raw$bin)
-
 # precipitation preparation
 d_prec <- d |> 
-  sf::st_drop_geometry() |> 
-  dplyr::select(day1.00:day5.23) |> 
-  `colnames<-`(round(seq(1,6,length=120),3)) |> 
-  tidyr::drop_na() |> 
-  as.matrix()
-
-# precipitation preparation
-precipitation.raw <- d.raw |> 
   sf::st_drop_geometry() |> 
   dplyr::select(day1.00:day5.23) |> 
   `colnames<-`(round(seq(1,6,length=120),3)) |> 
@@ -72,7 +58,6 @@ Time <- matrix(time, 3233, 120, byrow=TRUE)
 # fitting list
 predlist <- list(Time=Time, 
                  precipitation=precipitation,
-                 precipitation.raw=precipitation.raw,
                  bin = as.numeric(as.vector(d_static$bin)),
                  doy = as.vector(d_static$doy),
                  month = as.vector(d_static$month),
