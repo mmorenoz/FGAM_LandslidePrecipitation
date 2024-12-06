@@ -1,3 +1,9 @@
+# The code illustrates the procedures described in the manuscript--
+# Functional regression for space-time prediction of precipitation-induced shallow landslides in South Tyrol, Italy
+# by authors Mateo Moreno, Luigi Lombardo, Stefan Steger, Lotte de Vugt,
+# Thomas Zieher, Alice Crespi, Francesco Marra, Cees van Westen and Thomas Opitz
+
+
 # INITIAL SETTINGS --------------------------------------------------------
 
 # clean environment
