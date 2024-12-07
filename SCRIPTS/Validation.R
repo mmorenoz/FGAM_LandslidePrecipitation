@@ -97,13 +97,13 @@ formula.cv <- bin ~
 
 ## random cv ---------------------------------------------------------------
 
-# create random cv partition
-set.seed(1)
-partition <- sperrorest::partition_cv(d, nfold = fold, repetition = repetition, seed1 = 123) 
-
 # setting up loop for random cross-validation
 fold <- 10
 repetition <- 10
+
+# create random cv partition
+set.seed(1)
+partition <- sperrorest::partition_cv(d, nfold = fold, repetition = repetition, seed1 = 123) 
 myroc_cv <- lapply(my.list<-vector(mode = 'list', 10),function(x) x<-vector(mode='list', 10))
 
 # loop for validation
@@ -134,13 +134,13 @@ myroc_cv = dplyr::as_tibble(do.call(rbind, lapply(myroc_cv, unlist))) |>
 
 ## spatial cv ---------------------------------------------------------------
 
-# create spatial scv partition
-set.seed(1)
-partition.s <- sperrorest::partition_kmeans(d, nfold = fold, repetition = repetition, seed1 = 123) 
-
 # setting up loop for spatial cross-validation
 fold <- 10
 repetition <- 10
+
+# create spatial scv partition
+set.seed(1)
+partition.s <- sperrorest::partition_kmeans(d, nfold = fold, repetition = repetition, seed1 = 123) 
 myroc_scv <- lapply(my.list<-vector(mode = 'list',10),function(x) x<-vector(mode='list',10))
 
 # loop for validation
