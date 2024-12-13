@@ -8,7 +8,7 @@ Shallow landslides are geomorphic hazards in mountainous terrains across the glo
 
 
 ### Acknowledgements
-The research that led to these results is related to the PROSLIDE project (https://www.mountainresearch.at/proslide/), which received funding from the research program Research Südtirol/Alto Adige 2019 of the autonomous province of Bolzano. We thank the Faculty of Geo-information Science and Earth Observation (ITC) – University of Twente for covering the open-access publication fees We thank. We thank Dr. Serkan Girgin for his support with using the CRIB platform. We thank the Office for Meteorology and Avalanche Prevention, especially Mauro Tollardo, for supporting and providing data. Finally, we thank the provincial Office for Geology and Building Materials Testing for assisting in preparing landslide data.
+The research that led to these results is related to the PROSLIDE project (https://www.mountainresearch.at/proslide/), which received funding from the research program Research Südtirol/Alto Adige 2019 of the autonomous province of Bolzano. We thank the Faculty of Geo-information Science and Earth Observation (ITC) – University of Twente for covering the open-access publication fees. We thank Dr. Serkan Girgin for his support with using the CRIB platform. We thank the Office for Meteorology and Avalanche Prevention, especially Mauro Tollardo, for supporting and providing data. Finally, we thank the provincial Office for Geology and Building Materials Testing for assisting in preparing landslide data.
 
 
 ### Further dissemination
