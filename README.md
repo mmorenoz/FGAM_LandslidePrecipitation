@@ -9,7 +9,7 @@ Alice Crespi <sup>[![](https://info.orcid.org/wp-content/uploads/2020/12/orcid_1
 Francesco Marra <sup>[![](https://info.orcid.org/wp-content/uploads/2020/12/orcid_16x16.gif)](https://orcid.org/0000-0003-0573-9202)</sup>, 
 Cees van Westen <sup>[![](https://info.orcid.org/wp-content/uploads/2020/12/orcid_16x16.gif)](https://orcid.org/0000-0002-2992-902X)</sup> and 
 Thomas Opitz.
-
+[![DOI](https://zenodo.org/badge/887347458.svg)](https://doi.org/10.5281/zenodo.15033256)
 
 > Moreno, M., Lombardo, L., Steger, S., Vugt, L. de, Zieher, T., Crespi, A., Marra, F., Westen, C. J. van, & Opitz, T. (2024). Functional regression for space-time prediction of precipitation-induced shallow landslides in South Tyrol, Italy. https://eartharxiv.org/repository/view/8189/
 
