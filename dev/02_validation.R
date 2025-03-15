@@ -18,7 +18,7 @@ renv::restore()
 # call packages
 list.packages <- c("mgcv", "refund" ,"sf", "tidyverse", "sperrorest")
 vapply(list.packages, library, logical(1), character.only = TRUE, logical.return = TRUE, quietly = TRUE)
-remove(list.packages)
+rm(list.packages)
 
 # ggplot theme
 theme_plot <- function(){
