@@ -1,7 +1,7 @@
 # Functional regression for space-time prediction of precipitation-induced shallow landslides in South Tyrol, Italy
 This is the R code to reproduce the analysis in "Functional regression for space-time prediction of precipitation-induced shallow landslides in South Tyrol, Italy." by
 Mateo Moreno <sup>[![](https://info.orcid.org/wp-content/uploads/2020/12/orcid_16x16.gif)](https://orcid.org/0000-0002-9530-3076)</sup>, 
-Luigi Lombardo <sup>[![](https://info.orcid.org/wp-content/uploads/2020/12/orcid_16x16.gif)](https://orcid.org/0000-0003-4348-7288)</sup>
+Luigi Lombardo <sup>[![](https://info.orcid.org/wp-content/uploads/2020/12/orcid_16x16.gif)](https://orcid.org/0000-0003-4348-7288)</sup>,
 Stefan Steger <sup>[![](https://info.orcid.org/wp-content/uploads/2020/12/orcid_16x16.gif)](https://orcid.org/0000-0003-0886-5191)</sup>, 
 Lotte de Vugt <sup>[![](https://info.orcid.org/wp-content/uploads/2020/12/orcid_16x16.gif)](https://orcid.org/0009-0003-0221-036X)</sup>, 
 Thomas Zieher <sup>[![](https://info.orcid.org/wp-content/uploads/2020/12/orcid_16x16.gif)](https://orcid.org/0000-0003-2985-5689)</sup>, 
